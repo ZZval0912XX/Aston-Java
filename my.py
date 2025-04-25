@@ -20,7 +20,7 @@ print(5/2)
 print(5//2)
 print(5 * 2)
 print(5**2)
-
+print((2**5+10)*3-15)
 
 
 
