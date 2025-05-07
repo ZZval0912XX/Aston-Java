@@ -33,6 +33,12 @@ print("да")
 x=2
 y=5
 print(y>x-2)
+# словари (dictionary)
+user_info = {"name": "Valentina", "Возраст": "37", "Любит программировать": "да"}
+print(user_info)
+
+
+
 
 
 
