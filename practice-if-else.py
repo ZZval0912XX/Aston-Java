@@ -56,18 +56,18 @@ from calendar import month
 #    print("Некорректный номер месяца")
 
 
-#age=int(input("Введите возраст: "))
-#time=int(input("Ввдите время сеанса в часах, например 14: "))
-#price=0
-#if age<3:
-#   price=0
-#elif age<=12:
-#   price=10
-#else:
-#   price=15
-#  if time<=12 and price>0:
-#     price * 0.8
-#    print(f"Стоимость билета и оплата:{price} ")
+age=int(input("Введите возраст: "))
+time=int(input("Ввдите время сеанса в часах, например 14: "))
+price=0
+if age<3:
+   price=0
+elif age<=12:
+   price=10
+else:
+   price=15
+if time <= 12 and price > 0:
+     price*0.8
+print(f"Стоимость билета и оплата:{price} ")
 
 
 
