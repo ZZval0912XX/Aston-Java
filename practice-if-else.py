@@ -1,3 +1,4 @@
+from re import search
 
 #n_string = input("Сколько чисел Фибоначчи хотите получить= ")
 #n = int(n_string)
@@ -98,6 +99,41 @@
 #    if len(word) > len(longest_word):
 #        longest_word = word
 #        print(f"Самое длинное слово в строке: {longest_word}")
+
+#Домашнее задание
+#string = input("Введите текст: ")
+#text = string.upper()
+#vowels = "АОУЫИЭУЕЁЮЯ"
+#vowels_count = 0
+#consonant_count = 0
+#for char in text:
+#    if char.isalpha():
+#        if char in vowels:
+#            vowels_count += 1
+#        else:
+#            consonant_count += 1
+#print("Количество гласных букв: ", vowels_count)
+#print("Количество согласных букв: ", consonant_count)
+#words = string.split()
+#max_word = ""
+#for word in words:
+#    clean_word = ""
+#    for char in word:
+#        if char.isalpha():
+#            clean_word += char
+#            if len(clean_word) > len(max_word):
+#             max_word = clean_word
+#print("Самое длинное слово: ", max_word)
+#search_word = input("Введите слово для поиска: ")
+#normalized_words = []
+#for word in words:
+#    clean = "".join([c for c in word if c.isalpha()])
+#    normalized_words.append(clean)
+#    print("Количество вхождений слова: ", normalized_words.count(search_word))
+
+
+
+
 
 
 
