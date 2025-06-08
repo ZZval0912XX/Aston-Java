@@ -131,6 +131,19 @@ from re import search
 #    normalized_words.append(clean)
 #    print("Количество вхождений слова: ", normalized_words.count(search_word))
 
+#Процедуры и функции
+def greet_and_count(user_name):
+    username_clean = user_name.replace(" ", "")
+    print(f"Привет, {user_name}! Добро пожаловать!")
+    print(f"В твоем имени {len(username_clean)} символов.")
+username = input("Пожалуйста, введите ваше имя: ")
+greet_and_count(username)
+
+
+
+
+
+
 
 
 
