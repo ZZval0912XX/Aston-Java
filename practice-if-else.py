@@ -132,17 +132,60 @@ from re import search
 #    print("Количество вхождений слова: ", normalized_words.count(search_word))
 
 #Процедуры и функции
-def greet_and_count(user_name):
-    username_clean = user_name.replace(" ", "")
-    print(f"Привет, {user_name}! Добро пожаловать!")
-    print(f"В твоем имени {len(username_clean)} символов.")
-username = input("Пожалуйста, введите ваше имя: ")
-greet_and_count(username)
+#def greet_and_count(user_name):
+#    username_clean = user_name.replace(" ", "")
+#    print(f"Привет, {user_name}! Добро пожаловать!")
+#    print(f"В твоем имени {len(username_clean)} символов.")
+#username = input("Пожалуйста, введите ваше имя: ")
+#greet_and_count(username)
 
+#def print_dashes(N):
+#    if N > 0:
+#        line = "-" * N
+#        print(line)
+#        print(line)
+#    else:
+#        print("Число N должно быть натуральным (N > 0)")
+#print_dashes(3)
 
+#def print_triangle():
+#    N = int(input("Введите размер стороны треугольника (N): "))
+#    for i in range(1, N + 1):
+#        print('*' * i)
+#print_triangle()
 
+#def hislo_max (a, b, c, d, e, f):
+#    return max(a, b, c, d, e, f)
+#print(hislo_max(22, 5, 3, 8, 4, 2))
 
+#def circle_area(radius):
+#    return 3.14 * radius ** 2
+#print(f"Площадь круга с радиусом 7: {circle_area(7):.2f}")
 
+# № 4
+#def average_of_five_numbers(numbers):
+#    return sum(numbers) / len(numbers)
+#numbers = [10, 10, 10, 10, 10]
+#result = average_of_five_numbers(numbers)
+#print("Среднее арифметическое: ", result)
+
+# № 5
+#def count_digits(number):
+#    num_str = str(abs(number))
+#    return len(num_str)
+#print(count_digits(12345))
+#print(count_digits(-9876))
+#print(count_digits(0))
+
+# № 7
+#def distance (x1, y1, x2, y2):
+#    return (((x2 - x1)** 2) + ((y2 -y1)** 2))** 0.5
+#def triangle_perimetr(x1, y1, x2, y2, x3, y3):
+#    a = distance(x1, y1, x2, y2)
+#    b = distance(x2, y2, x3, y3)
+#    c = distance(x3, y3, x1,y1)
+#    return a + b + c
+#print(triangle_perimetr(x1=1,y1=2,x2=2,y2=3,x3=4,y3=2))
 
 
 
