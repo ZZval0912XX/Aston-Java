@@ -1,3 +1,4 @@
+import math
 from re import search
 
 #n_string = input("Сколько чисел Фибоначчи хотите получить= ")
@@ -188,10 +189,34 @@ from re import search
 #print(triangle_perimetr(x1=1,y1=2,x2=2,y2=3,x3=4,y3=2))
 
 
+# № 11
+#def swap_values(a, b, c, d):
+#    a, b = b, a
+#    c, d = d, c
+#    return a, b, c, d
+#a = 1
+#b = 2
+#c = 3
+#d = 4
+#print("До обмена: ", a, b, c, d)
+#a, b, c, d = swap_values(a, b, c, d)
+#print("После обмена: ", a, b, c, d)
 
+# № 12
+#def calculate_triangle_perimeter(a, b, c):
+#    perimeter = a + b + c
+#    return perimeter
+#print(calculate_triangle_perimeter(a=1, b=2, c=4))
 
-
-
+#def calculate_triangle_area(a, b, c):
+#    if a <= 0 or b <= 0 or c <= 0:
+#        raise ValueError("Длины сторон должны быть положительными числами")
+#    if a + b <= c or a + c <= b or b + c <= a:
+#        raise ValueError("Сумма любых двух сторон должна быть больше третьей стороны")
+#    s = (a + b + c) / 2
+#    area = math.sqrt(s * (s - a) * (s - b) * (s - c))
+#    return area
+#print(calculate_triangle_area(a=3, b=4, c=5))
 
 
 
