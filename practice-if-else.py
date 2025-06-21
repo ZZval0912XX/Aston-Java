@@ -218,8 +218,64 @@ from re import search
 #    return area
 #print(calculate_triangle_area(a=3, b=4, c=5))
 
+# Задача 19
+#def pointInRect(px, py, rect_x1, rect_y1, rect_x2, rect_y2):
+#    left = min(rect_x1, rect_x2)
+#    right = max(rect_x1, rect_x2)
+#    top = min(rect_y1, rect_y2)
+#    bottom = max(rect_y1, rect_y2)
+#    return (left <= px <= right) and (top <= py <= bottom)
+#print(pointInRect(3, 3, 1, 4, 5, 2))
+#print(pointInRect(0, 3, 1, 4, 5, 2))
 
+# Задача 20
+#def side_length(x1, y1, x2, y2):
+#    return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
+#
+#def heron_triangle_area(a, b, c):
+#    p = (a + b + c) / 2
+#    return (p * (p - a) * (p - b) * (p - c))**0.5
+#
+#def pointinTriangle(px, py, x1, y1, x2, y2, x3, y3):
+#    # Стороны и площадь исходного треугольника ABC
+#    a = side_length(x1, y1, x2, y2)
+#    b = side_length(x2, y2, x3, y3)
+#    c = side_length(x3, y3, x1, y1)
+#    area_abc = heron_triangle_area(a, b, c)
+#
+#    # Стороны и площадь треугольника PAB
+#    a1 = side_length(px, py, x1, y1)
+#    b1 = side_length(px, py, x2, y2)
+#    c1 = side_length(x1, y1, x2, y2)
+#    area_pab = heron_triangle_area(a1, b1, c1)
+#
+#    # Стороны и площадь треугольника PBC
+#    a2 = side_length(px, py, x2, y2)
+#    b2 = side_length(px, py, x3, y3)
+#    c2 = side_length(x2, y2, x3, y3)
+#    area_pbc = heron_triangle_area(a2, b2, c2)
+#
+#    # Стороны и площадь треугольника PCA
+#    a3 = side_length(px, py, x3, y3)
+#    b3 = side_length(px, py, x1, y1)
+#    c3 = side_length(x3, y3, x1, y1)
+#    area_pca = heron_triangle_area(a3, b3, c3)
+#
+#    total_area = area_pab + area_pbc + area_pca
+#
+#    return round(total_area, 5) == round(area_abc, 5)
+#
+#print(pointinTriangle(1, 1, 0, 0, 4, 0, 0,3))
 
+# Задача 21
+#def calculate_final_score(score1, score2, score3, score4, score5):
+#    scores = [score1, score2, score3, score4, score5]
+#    scores.remove(min(scores))
+#    scores.remove(max(scores))
+#    final_score = sum(scores) / len(scores)
+#    return final_score
+#final_score = calculate_final_score(90, 95, 85, 100, 80)
+#print(final_score)
 
 
 
