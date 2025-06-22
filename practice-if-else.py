@@ -288,6 +288,68 @@ from re import search
 #    print(fibonacci(5))
 #    print(fibonacci(10))
 
+# Классы Задание 1
+#class Rectangle:
+#    def __init__(self, width, height):
+#        self.width = width
+#        self.height = height
+#
+#    def area(self):
+#        return self.width * self.height
+#
+#    def perimeter(self):
+#        return 2 * (self.width + self.height)
+#
+#
+#class Square(Rectangle):
+#    def __init__(self, side):
+#        super().__init__(side, side)
+#        self.side = side
+#
+#if __name__ == "__main__":
+#    rectangle = Rectangle(4, 5)
+#    print("Rectangle:")
+#    print("Width:", rectangle.width)
+#    print("Height:", rectangle.height)
+#    print("Area:", rectangle.area())
+#    print("Perimeter:", rectangle.perimeter())
+#
+#    print("\nSquare:")
+#    square = Square(3)
+#    print("Side:", square.side)
+#    print("Area:", square.area())
+#    print("Perimeter:", square.perimeter())
+# Задание 2
+#class Person:
+#    def __init__(self, name, age, gender):
+#        self.name = name
+#        self.age = age
+#        self.gender = gender
+#
+#    def introduce(self):
+#        print(f"Привет! Меня зовут {self.name}, мне {self.age} лет, я {self.gender}.")
+#
+#
+#class Employee(Person):
+#    def __init__(self, name, age, gender, salary, position):
+#        super().__init__(name, age, gender)
+#        self.salary = salary
+#        self.position = position
+#
+#    def work(self):
+#        print(f"Я {self.position} и моя зарплата составляет {self.salary} рублей.")
+#
+#person = Person("Антон", 30, "мужчина")
+#person.introduce()
+#
+#employee = Employee("Валентина", 28, "женщина", 50000, "тестировщик")
+#employee.introduce()
+#employee.work()
+
+
+
+
+
 
 
 
