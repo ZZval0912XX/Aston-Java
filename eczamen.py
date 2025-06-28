@@ -1,4 +1,4 @@
-# Задача 1
+# Задача 3
 
 #def compute_gcd(a, b):
 #    while b:
@@ -9,7 +9,7 @@
 #gcd = compute_gcd(num1, num2)
 #print(f"Наибольший общий делитель чисел {num1} и {num2} равен {gcd}")
 
-# Задача 2
+# Задача 1
 
 num1 = float(input("Введите первое число: "))
 operator = input("Введите оператор (+, -, *, /): ")
