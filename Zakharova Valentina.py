@@ -1,30 +1,13 @@
-a=int(input("Введите первое число: "))
-b=int(input("Введите второе число: "))
-if a > b:
-    print("a > b")
-elif a < b:
-    print("a < b")
-else:
-    print("a = b")
 
-a=int(input("Введите первое число: "))
-b=int(input("Введите второе число: "))
-print("Сумма: ", a + b)
-print("Разность: ", a - b)
-print("Произведение: ", a * b)
-if b == 0:
-    print("На ноль делить нельзя")
-else:
-    print("Деление: ", a / b)
 
-a=input("Введите первую строку: ").lower()
-b=input("Введите вторую строку: ").lower()
-if sorted(a) == sorted(b):
-    print("Строки идентичны")
-else:
-   print("Строки неидентичны")
+def greet_user(username):
+    # Удаляем пробелы из имени для подсчета символов
+    username_clean = username.replace(" ", "")
+    # Выводим персонализированное приветствие
+    print(f"Привет, {username}! Рады видеть тебя здесь!")
+    # Выводим количество символов в имени (без пробелов)
+    print(f"Твое имя состоит из {len(username_clean)} символов.")
 
-chislo = [1, 2, 3, 4, 5, 6, 7, 8, 9,10]
-for x in chislo:
-    if x % 2 == 0:
-        print(x)
+# Пример использования
+user_name = input("Пожалуйста, введите ваше имя: ")
+greet_user(user_name)
