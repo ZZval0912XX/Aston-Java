@@ -17,6 +17,7 @@ public class CompareAndCalculate {
         System.out.print("Введите второе число (b): ");
         int b = scanner.nextInt();
 
+        // Сравнение чисел
         if (a > b) {
             System.out.println("a > b");
         } else if (a < b) {
@@ -25,6 +26,7 @@ public class CompareAndCalculate {
             System.out.println("a = b");
         }
 
+        // Математические операции
         int sum = a + b;
         int difference = a - b;
         int product = a * b;
@@ -33,6 +35,7 @@ public class CompareAndCalculate {
         System.out.println("Разность: " + difference);
         System.out.println("Произведение: " + product);
 
+        // Деление с проверкой деления на ноль
         if (b != 0) {
             double division = (double) a / b;
             System.out.println("Деление: " + division);
