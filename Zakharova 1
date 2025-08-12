@@ -17,7 +17,6 @@ public class CompareAndCalculate {
         System.out.print("Введите второе число (b): ");
         int b = scanner.nextInt();
 
-        // Сравнение чисел
         if (a > b) {
             System.out.println("a > b");
         } else if (a < b) {
@@ -26,7 +25,6 @@ public class CompareAndCalculate {
             System.out.println("a = b");
         }
 
-        // Математические операции
         int sum = a + b;
         int difference = a - b;
         int product = a * b;
@@ -35,7 +33,6 @@ public class CompareAndCalculate {
         System.out.println("Разность: " + difference);
         System.out.println("Произведение: " + product);
 
-        // Деление с проверкой деления на ноль
         if (b != 0) {
             double division = (double) a / b;
             System.out.println("Деление: " + division);
@@ -44,45 +41,5 @@ public class CompareAndCalculate {
         }
 
         scanner.close();
-    }
-}
-//  Написать программу, которая принимает на вход две строки (a и b) и сравнивает их.
-//  В результате сравнения в консоль должно быть выведено одно из сообщений:
-//  "Строки неидентичны" или "Строки идентичны"
-
-import java.util.Scanner;
-
-public class StringComparator {
-    public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-
-        System.out.print("Введите первую строку (a): ");
-        String a = scanner.nextLine();
-
-        System.out.print("Введите вторую строку (b): ");
-        String b = scanner.nextLine();
-
-        if (a.equals(b)) {
-            System.out.println("Строки идентичны");
-        } else {
-            System.out.println("Строки неидентичны");
-        }
-
-        scanner.close();
-    }
-}
-// Задан массив целых чисел: [1, 2, 3, 4, 5, 6, 7, 8, 9,10]  необходимо написать программу,
-// которая выведет в консоль все чётные числа.
-
-public class EvenNumbers {
-    public static void main(String[] args) {
-        int[] numbers = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
-
-        System.out.println("Чётные числа в массиве:");
-        for (int number : numbers) {
-            if (number % 2 == 0) {
-                System.out.println(number);
-            }
-        }
     }
 }
