@@ -1,4 +1,3 @@
-
 Product[] productsArray = new Product[5];
 
 productsArray[0] = new Product("Samsung S25 Ultra", "01.02.2025",
